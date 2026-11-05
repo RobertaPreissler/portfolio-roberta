@@ -17,11 +17,11 @@ function Hero() {
         </h1>
 
         <p className={styles.description}>
-          Tenho uma trajetória multidisciplinar, com formação
-          em Letras e Ciências da Educação. Atualmente, direciono
-          minha formação para a tecnologia, desenvolvendo projetos
-          práticos e aprofundando meus conhecimentos em Inteligência
-          Artificial e desenvolvimento de software.
+          Minha trajetória reúne formação acadêmica em Letras,
+          Ciências da Educação e Tecnologia. Atualmente, direciono
+          meus estudos para a Inteligência Artificial e o
+          desenvolvimento de software, unindo conhecimentos
+          multidisciplinares à construção de soluções tecnológicas.
         </p>
 
         <a href="#projetos" className={styles.button}>
@@ -35,8 +35,8 @@ function Hero() {
         <div className={styles.interests}>
           <span>Inteligência Artificial</span>
           <span>Python</span>
-          <span>Banco de Dados</span>
           <span>Desenvolvimento de Software</span>
+          <span>Automação e Soluções Inteligentes</span>
         </div>
       </div>
     </section>

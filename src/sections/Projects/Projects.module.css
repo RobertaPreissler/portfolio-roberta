@@ -1,16 +1,111 @@
 
-
 .projects {
   width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 80px 60px;
+  margin: 0;
+  padding: 80px 8%;
   box-sizing: border-box;
+}
+
+.heading {
+  margin-bottom: 40px;
+}
+
+.subtitle {
+  color: #a78bfa;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+
+.heading h2 {
+  color: #ffffff;
+  font-size: 32px;
+  margin-bottom: 14px;
+}
+
+.description {
+  max-width: 650px;
+  line-height: 1.7;
+  color: #c4c0d4;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+}
+
+.card {
+  min-width: 0;
+  padding: 28px;
+  border: 1px solid #51416e;
+  border-radius: 16px;
+  background: #1c1929;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.category {
+  color: #a78bfa;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.card h3 {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 14px;
+}
+
+.cardDescription {
+  color: #c4c0d4;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.technologies span {
+  background: #302052;
+  color: #ddd6fe;
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.githubLink {
+  color: #a78bfa;
+  font-weight: 700;
+  text-decoration: none;
+  margin-top: auto;
+}
+
+.githubLink:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .projects {
+    padding: 60px 6%;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 600px) {
   .projects {
-    padding: 60px 24px;
+    padding: 50px 6%;
   }
 
   .grid {
@@ -19,5 +114,9 @@
 
   .card {
     padding: 22px;
+  }
+
+  .heading h2 {
+    font-size: 27px;
   }
 }

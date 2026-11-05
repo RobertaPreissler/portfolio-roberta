@@ -13,25 +13,33 @@ function About() {
 
         <p className={styles.description}>
           Sou uma profissional com trajetória multidisciplinar,
-          reunindo experiências nas áreas de Letras, Educação
-          e Tecnologia. Minha atuação como professora de Língua
-          Portuguesa na Prefeitura da Cidade do Rio de Janeiro,
-          desde 2016, fortaleceu competências como comunicação,
-          pensamento crítico, planejamento e resolução de problemas.
+          formada em Letras Português/Inglês e com experiência
+          na área da Educação. Ao longo da minha carreira,
+          desenvolvi habilidades de comunicação, pensamento
+          crítico, organização e resolução de problemas.
         </p>
 
         <p className={styles.description}>
-          Atualmente, curso Ciência da Computação no IBMR e já
-          concluí uma pós-graduação de 720 horas em Inteligência
-          Artificial na Prática. Desenvolvo projetos para ampliar
-          meus conhecimentos e minhas habilidades na área tecnológica.
+          Desde 2016, atuo como professora de Língua Portuguesa
+          na Prefeitura da Cidade do Rio de Janeiro. Essa
+          experiência fortaleceu minha capacidade de analisar
+          desafios, planejar soluções e trabalhar com diferentes
+          contextos e necessidades.
         </p>
 
         <p className={styles.description}>
-          Tenho especial interesse em Inteligência Artificial,
-          desenvolvimento de software, Python e bancos de dados,
-          especialmente na criação de soluções inteligentes,
-          automação de processos e integração de sistemas.
+          Atualmente, curso Ciência da Computação no IBMR e
+          direciono minha formação para Inteligência Artificial
+          e desenvolvimento de software. Também concluí uma
+          pós-graduação de 720 horas em Inteligência Artificial
+          na Prática.
+        </p>
+
+        <p className={styles.description}>
+          Meu objetivo é construir uma trajetória profissional
+          em Tecnologia, explorando Python, Inteligência Artificial,
+          automação de processos e desenvolvimento de soluções
+          inteligentes.
         </p>
       </div>
 
@@ -85,11 +93,12 @@ function About() {
             <strong>Professora de Língua Portuguesa</strong>
             <span>Prefeitura da Cidade do Rio de Janeiro</span>
             <span>2016 – atual</span>
+
             <p>
-              Atuação na Educação Básica, com planejamento de aulas,
-              desenvolvimento de atividades pedagógicas,
-              acompanhamento da aprendizagem e utilização de
-              recursos tecnológicos no contexto educacional.
+              Atuação na Educação Básica, com planejamento
+              pedagógico, desenvolvimento de atividades,
+              acompanhamento da aprendizagem e utilização
+              de recursos tecnológicos.
             </p>
           </div>
         </div>
