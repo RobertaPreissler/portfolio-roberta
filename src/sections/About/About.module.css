@@ -1,0 +1,76 @@
+
+.about {
+  padding: 100px 8%;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 70px;
+  background: #171522;
+  align-items: start;
+}
+
+.subtitle {
+  color: #a78bfa;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+
+.content h2 {
+  color: #ffffff;
+  font-size: 36px;
+  margin-bottom: 24px;
+}
+
+.description {
+  color: #c4c0d4;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 18px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+
+.education h3,
+.experience h3 {
+  color: #ffffff;
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  padding: 17px 0;
+  border-bottom: 1px solid #353044;
+}
+
+.item strong {
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.item span {
+  color: #a78bfa;
+  font-size: 13px;
+}
+
+.item p {
+  color: #c4c0d4;
+  font-size: 14px;
+  line-height: 1.7;
+  margin-top: 8px;
+}
+
+@media (max-width: 800px) {
+  .about {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 70px 6%;
+  }
+}

@@ -1,0 +1,30 @@
+
+.githubLink {
+  display: inline-block;
+  margin-top: 24px;
+  color: #a78bfa;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.githubLink:hover {
+  color: #c4b5fd;
+  text-decoration: underline;
+}
+
+.githubLink {
+  display: inline-block;
+  margin-top: 24px;
+  color: #a78bfa;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.githubLink:hover {
+  color: #c4b5fd;
+  text-decoration: underline;
+}
