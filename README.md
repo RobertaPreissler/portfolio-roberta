@@ -1,16 +1,105 @@
-# React + Vite
+﻿# Portfólio — Roberta Giovanelli
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Sobre o projeto
 
-Currently, two official plugins are available:
+Este projeto é meu portfólio profissional, desenvolvido para apresentar minha trajetória acadêmica e profissional, meus conhecimentos em tecnologia e projetos práticos desenvolvidos durante minha formação em Ciência da Computação.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+O objetivo é compartilhar minha experiência, destacar meu direcionamento para Inteligência Artificial e desenvolvimento de software e facilitar o contato com oportunidades profissionais.
 
-## React Compiler
+## Acesse o portfólio
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+[Visualizar portfólio publicado](https://portfolio-roberta-kohl.vercel.app)
 
-## Expanding the ESLint configuration
+## Tecnologias utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript
+- Vite
+- CSS Modules
+- ESLint
+- Git e GitHub
+- Vercel
+
+## Principais recursos
+
+- Navegação por âncoras entre as seções da página.
+- Apresentação pessoal e trajetória profissional.
+- Exibição da formação acadêmica e experiência profissional.
+- Galeria de projetos com descrições, tecnologias e links para o GitHub.
+- Seção de habilidades e conhecimentos técnicos.
+- Área de contato com links para e-mail, LinkedIn e GitHub.
+- Layout adaptável a diferentes tamanhos de tela.
+
+## Como executar localmente
+
+### Pré-requisitos
+
+- Node.js
+- npm
+
+### Instalação
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/RobertaPreissler/portfolio-roberta.git
+```
+
+Entre na pasta do projeto:
+
+```bash
+cd portfolio-roberta
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Inicie o servidor de desenvolvimento:
+
+```bash
+npm run dev
+```
+
+O Vite informará o endereço local para acessar o projeto no navegador.
+
+## Comandos disponíveis
+
+| Comando | Descrição |
+|---|---|
+| `npm install` | Instala as dependências do projeto. |
+| `npm run dev` | Inicia o servidor de desenvolvimento. |
+| `npm run build` | Gera a versão de produção. |
+| `npm run lint` | Executa a verificação estática do código com ESLint. |
+
+## Estrutura principal de pastas
+
+```text
+portfolio-roberta/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   └── Header/
+│   ├── sections/
+│   │   ├── Hero/
+│   │   ├── About/
+│   │   ├── Projects/
+│   │   ├── Skills/
+│   │   └── Contact/
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+└── README.md
+```
+
+## Autoria
+
+**Roberta Giovanelli**
+
+- GitHub: [RobertaPreissler](https://github.com/RobertaPreissler)
+- LinkedIn: [Perfil profissional](https://www.linkedin.com/in/roberta-preissler-giovanelli-6584b1377/)
+- E-mail: roberta_preissler@hotmail.com
